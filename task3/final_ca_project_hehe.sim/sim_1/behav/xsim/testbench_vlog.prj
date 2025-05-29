@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../final_ca_project_hehe.srcs/sources_1/new/Adder.v" \
+"../../../../final_ca_project_hehe.srcs/sources_1/new/Instruction_Fetch.v" \
+"../../../../final_ca_project_hehe.srcs/sources_1/new/Instruction_mem.v" \
+"../../../../final_ca_project_hehe.srcs/sources_1/new/Program_Counter.v" \
+"../../../../final_ca_project_hehe.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
